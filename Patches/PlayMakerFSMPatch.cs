@@ -10,6 +10,7 @@ internal static class PlayMakerFSMPatch
     private static readonly Action<PlayMakerFSM>[] edits =
     [
         FasterBossAndNpc.FasterLace1,
+        FasterBossAndNpc.FasterLostLace,
         FasterBossAndNpc.FasterNPC,
         Bellway.BellBeast,
         Bellway.Toll,
